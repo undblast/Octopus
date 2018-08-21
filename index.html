@@ -1,0 +1,558 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Осьминог скиллов</title>
+		<link rel="stylesheet" href="styles\00.css">
+	</head>
+	<body>
+		<div class = "sitebg"></div>
+		<div class = "sitehead">
+			<div class = "sitemenu" style = "left: 24.7%; background-image: url(..\Images\Button0.jpg) none no-repeat;">
+			</div>
+			<div class = "sitemenu" style = "left: 39.7%; background-image: url(..\Images\Button1.jpg) none no-repeat;">
+			</div>
+			<div class = "sitemenu" style = "left: 54.7%; background-image: url(..\Images\Button2.jpg) none no-repeat;">
+			</div>
+			<div class = "sitemenu" style = "left: 69.7%; background-image: url(..\Images\Button3.jpg) none no-repeat;">
+			</div>
+			<div class = "sitemenu" style = "left: 84.7%; background: url(images/myoct.jpg) 100% 100% no-repeat;" onclick = "myOctopusCreate()">
+			</div>
+		</div>
+			<div class = "siteengine">
+				<h1 class = "hstyle0">Create your octopus:</h1>
+				<div style = "position: absolute; width: 33%; height: 88%; top: 5%">
+					<p class = "pstyle0" style = "top: 0%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 6%;">Learned (%):</p>
+					<p class = "pstyle0" style = "top: 12%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 18%;">Learned (%):</p>
+					<p class = "pstyle0" style = "top: 24%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 30%;">Learned (%):</p>
+					<p class = "pstyle0" style = "top: 36%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 42%;">Learned (%):</p>
+					<p class = "pstyle0" style = "top: 48%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 54%;">Learned (%):</p>
+					<p class = "pstyle0" style = "top: 60%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 66%;">Learned (%):</p>
+					<p class = "pstyle0" style = "top: 72%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 78%;">Learned (%):</p>
+					<p class = "pstyle0" style = "top: 84%;">Skill:</p>
+					<p class = "pstyle0" style = "top: 90%;">Learned (%):</p>
+				</div>
+				<div style = "position: absolute; width: 67%; height: 88%; top: 5%; left: 33%">
+						<input class = "inputmain" type = "text" value = "Skill's name 1" id = "1stSkillName" style = "top: 3.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "1stSkillNow" style = "top: 9.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "1stSkillNeed" style = "top: 9.35%; right: 2.5%">
+						<input class = "inputmain" type = "text" value = "Skill's name 2" id = "2ndSkillName" style = "top: 15.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "2ndSkillNow" style = "top: 21.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "2ndSkillNeed" style = "top: 21.35%; right: 2.5%">
+						<input class = "inputmain" type = "text" value = "Skill's name 3" id = "3rdSkillName" style = "top: 27.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "3rdSkillNow" style = "top: 33.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "3rdSkillNeed" style = "top: 33.35%; right: 2.5%">
+						<input class = "inputmain" type = "text" value = "Skill's name 4 " id = "4thSkillName" style = "top: 39.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "4thSkillNow" style = "top: 45.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "4thSkillNeed" style = "top: 45.35%; right: 2.5%">
+						<input class = "inputmain" type = "text" value = "Skill's name 5" id = "5thSkillName" style = "top: 51.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "5thSkillNow" style = "top: 57.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "5thSkillNeed" style = "top: 57.35%; right: 2.5%">
+						<input class = "inputmain" type = "text" value = "Skill's name 6" id = "6thSkillName" style = "top: 63.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "6thSkillNow" style = "top: 69.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "6thSkillNeed" style = "top: 69.35%; right: 2.5%">
+						<input class = "inputmain" type = "text" value = "Skill's name 7" id = "7thSkillName" style = "top: 75.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "7thSkillNow" style = "top: 81.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "7thSkillNeed" style = "top: 81.35%; right: 2.5%">
+						<input class = "inputmain" type = "text" value = "Skill's name 8" id = "8thSkillName" style = "top: 87.35%;">
+						<input class = "inputsecond" type = "text" value = "Now" id = "8thSkillNow" style = "top: 93.35%; left: 2.5%">
+						<input class = "inputsecond" type = "text" value = "Future" id = "8thSkillNeed" style = "top: 93.35%; right: 2.5%">
+				</div>
+			<input class = "inputmain" type = "button" name = "CreateOctopus" style = "top: 94.2%; left: 2.5%; font-size: 1.5vw; background: url(images/btn.jpg) 100% 100% no-repeat;"; onclick = "CreateOctopusAction()">	
+			</div>
+		<canvas class = "object" id = "objPaint"></canvas>
+		</div>
+		<script>		
+			
+			function myOctopusCreate ()
+				{
+				document.getElementById("1stSkillName").value = "Стрессоустойчивость";
+				document.getElementById("1stSkillNow").value = "30";
+				document.getElementById("1stSkillNeed").value = "80";
+				document.getElementById("2ndSkillName").value = "Терпеливость";
+				document.getElementById("2ndSkillNow").value = "100";
+				document.getElementById("2ndSkillNeed").value = "100";
+				document.getElementById("3rdSkillName").value = "Умение писать на С++";
+				document.getElementById("3rdSkillNow").value = "10";
+				document.getElementById("3rdSkillNeed").value = "45";
+				document.getElementById("4thSkillName").value = "Знание web";
+				document.getElementById("4thSkillNow").value = "5";
+				document.getElementById("4thSkillNeed").value = "50";
+				document.getElementById("5thSkillName").value = "Навык общения";
+				document.getElementById("5thSkillNow").value = "40";
+				document.getElementById("5thSkillNeed").value = "80";
+				document.getElementById("6thSkillName").value = "Работа в команде";
+				document.getElementById("6thSkillNow").value = "35";
+				document.getElementById("6thSkillNeed").value = "75";
+				document.getElementById("7thSkillName").value = "Целеустремленность";
+				document.getElementById("7thSkillNow").value = "25";
+				document.getElementById("7thSkillNeed").value = "50";
+				document.getElementById("8thSkillName").value = "Работа на результат";
+				document.getElementById("8thSkillNow").value = "20";
+				document.getElementById("8thSkillNeed").value = "60";
+				CreateOctopusAction();
+				}
+			
+			function NumberCheck (intNumber0, intNumber1)
+				{
+				if (intNumber0/intNumber1 > 0.1 && intNumber0/intNumber1 < 0.9)
+					{
+					return intNumber0/intNumber1;
+					}
+				if (intNumber0/intNumber1 >= 0.9)
+					{
+					return intNumber0/intNumber1+0.1;
+					}
+				return 0.11;
+				}
+			
+			function CanvasEngine(strContext, boolHelper, intHelperStep, strColor, intWidth, intHeight, realLineWidth) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				objCanvas.canvas.width = intWidth;
+				objCanvas.canvas.height = intHeight;
+				objCanvas.lineWidth = realLineWidth;
+				objCanvas.fillStyle = strColor;
+				objCanvas.strokeStyle = strColor;
+				
+				if (boolHelper) {
+					for (var i = 1; i < intWidth/intHelperStep; i++) {
+						objCanvas.beginPath();
+						objCanvas.moveTo(i*intHelperStep,0);
+						objCanvas.lineTo(i*intHelperStep,intHeight);
+						objCanvas.closePath();
+						objCanvas.stroke();
+					}
+				
+					for (var i = 1; i < intHeight/intHelperStep; i++) {
+						objCanvas.beginPath();
+						objCanvas.moveTo(0,i*intHelperStep);
+						objCanvas.lineTo(intWidth,i*intHelperStep);
+						objCanvas.closePath();
+						objCanvas.stroke();
+					}
+				}
+			}
+			
+			function DrawHead(strContext, intCenterX, intCenterY, intRadius, intYeyRadius, strYeyColor) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				objCanvas.beginPath();
+				objCanvas.moveTo(intCenterX, intCenterY);
+				objCanvas.arc(intCenterX, intCenterY, intRadius, 0, 2*Math.PI, false);
+				objCanvas.fill()
+				objCanvas.closePath();
+				objCanvas.fillStyle = "#FFFFFF";
+				objCanvas.beginPath();
+				objCanvas.moveTo(intCenterX+intYeyRadius-30, intCenterY-50);				
+				objCanvas.arc(intCenterX-30, intCenterY-50, intYeyRadius, 0, 2*Math.PI, false);
+				objCanvas.closePath();
+				objCanvas.fill();
+				objCanvas.beginPath();
+				objCanvas.moveTo(intCenterX+intYeyRadius+30, intCenterY-50);				
+				objCanvas.arc(intCenterX+30, intCenterY-50, intYeyRadius, 0, 2*Math.PI, false);
+				objCanvas.closePath();
+				objCanvas.fill();
+			}
+			
+			function TenR1(strContext, strName,realNow, realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(911,295,1100,80);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 1105, 90);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(920,250);
+				objCanvas.quadraticCurveTo(960,270,995,240);
+				objCanvas.quadraticCurveTo(1025,210,1000,170);
+				objCanvas.quadraticCurveTo(960,130,1000,90);
+				objCanvas.quadraticCurveTo(1020,70,1100,80);
+				objCanvas.quadraticCurveTo(980,103,1035,150);
+				objCanvas.quadraticCurveTo(1075,195,1040,250);
+				objCanvas.quadraticCurveTo(990,320,911,295);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}
+			function TenR2(strContext, strName,realNow, realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(911,330,1200,270);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 1195, 280);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(911,295);
+				objCanvas.quadraticCurveTo(965,360,1040,300);
+				objCanvas.quadraticCurveTo(1120,195,1190,270);
+				objCanvas.quadraticCurveTo(1110,250,1080,300);
+				objCanvas.quadraticCurveTo(1000,410,887,330);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}
+			function TenR3(strContext, strName,realNow,realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(846,330,1120,550);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 1100, 540);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(887,330);
+				objCanvas.quadraticCurveTo(890,410,970,425);
+				objCanvas.quadraticCurveTo(1120,445,1090,550);
+				objCanvas.quadraticCurveTo(1070,480,1000,470);
+				objCanvas.quadraticCurveTo(870,450,846,360);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}
+				function TenR4(strContext, strName,realNow,realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(825,360,865,650);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 870, 630);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(840,360);
+				objCanvas.quadraticCurveTo(915,500,865,550);
+				objCanvas.quadraticCurveTo(820,600,850,650);
+				objCanvas.quadraticCurveTo(780,600,825,540);
+				objCanvas.quadraticCurveTo(875,480,800,370);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}
+				function TenL4(strContext, strName,realNow,realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(800,370,735,650);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 740, 680);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(800,370);
+				objCanvas.quadraticCurveTo(730,480,773,540);
+				objCanvas.quadraticCurveTo(810,600,750,650);
+				objCanvas.quadraticCurveTo(790,600,735,550);
+				objCanvas.quadraticCurveTo(690,500,753,360);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}
+				function TenL3(strContext, strName,realNow,realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(753,330,550,600);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 420, 630);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(753,360);
+				objCanvas.quadraticCurveTo(650,400,650,500);
+				objCanvas.quadraticCurveTo(650,600,550,600);
+				objCanvas.quadraticCurveTo(600,600,610,500);
+				objCanvas.quadraticCurveTo(610,390,710,330);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}
+				function TenL2(strContext, strName,realNow,realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(710,285,430,400);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 300, 480);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(710,330);
+				objCanvas.quadraticCurveTo(600,320,550,400);
+				objCanvas.quadraticCurveTo(500,470,430,400);
+				objCanvas.quadraticCurveTo(505,420,540,350);
+				objCanvas.quadraticCurveTo(580,275,685,285);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}
+				function TenL1(strContext, strName,realNow,realNeed) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				var intPercent = NumberCheck(realNow,realNeed);
+				var objGradient = objCanvas.createLinearGradient(685,285,430,130);
+				objCanvas.font = "2vw Monotype Corsiva";
+				objCanvas.fillStyle = "#5f3ca5";
+				objCanvas.fillText(strName, 280, 100);
+				objGradient.addColorStop(0,"#FF69B4");
+				objGradient.addColorStop(intPercent-0.1,"#FF69B4");
+				objGradient.addColorStop(1,"rgba(255,255,255,0.1)");
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(685,285);
+				objCanvas.quadraticCurveTo(560,280,530,150);
+				objCanvas.quadraticCurveTo(520,110,430,150);
+				objCanvas.quadraticCurveTo(540,70,560,130);
+				objCanvas.quadraticCurveTo(590,240,682,240);
+				objCanvas.closePath();
+				objCanvas.fillStyle = objGradient;
+				objCanvas.fill();
+				objCanvas.stroke();
+			}	
+				function EyesSmile(strContext) {
+				var objCanvas = document.getElementById("objPaint").getContext(strContext);
+				objCanvas.fillStyle = "#000000";
+				objCanvas.lineWidth = 2;
+				objCanvas.beginPath();
+				objCanvas.moveTo(890, 200);				
+				objCanvas.arc(770, 203, 14, 0, 2*Math.PI, false);
+				objCanvas.closePath();
+				objCanvas.fill();
+				
+				objCanvas.beginPath();
+				objCanvas.moveTo(950, 200);				
+				objCanvas.arc(830, 203, 14, 0, 2*Math.PI, false);
+				objCanvas.closePath();
+				objCanvas.fill();
+				
+				objCanvas.beginPath();
+				objCanvas.moveTo(750, 250);				
+				objCanvas.quadraticCurveTo(800,320,850,250);
+				objCanvas.closePath();
+				objCanvas.fill();
+			}
+			
+			function isNumeric(strValue)
+				{
+				var intSymbolCount = strValue.length;
+				if (strValue == "")
+					{
+					return false;
+					}
+				for (var i = 0; i < intSymbolCount; i++)
+					{
+					if (strValue[i] < '0' || strValue[i] > '9')
+						{
+						return false;
+						}
+					}
+				return true;
+				}
+			
+			function IsMew()
+				{
+				if (document.getElementById("1stSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("1stSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("1stSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("1stSkillNow").value/document.getElementById("1stSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				if (document.getElementById("2ndSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("2ndSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("2ndSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("2ndSkillNow").value/document.getElementById("2ndSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				if (document.getElementById("3rdSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("3rdSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("3rdSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("3rdSkillNow").value/document.getElementById("3rdSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				if (document.getElementById("4thSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("4thSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("4thSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("4thSkillNow").value/document.getElementById("4thSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				if (document.getElementById("5thSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("5thSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("5thSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("5thSkillNow").value/document.getElementById("5thSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				if (document.getElementById("6thSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("6thSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("6thSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("6thSkillNow").value/document.getElementById("6thSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				if (document.getElementById("7thSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("7thSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("7thSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("7thSkillNow").value/document.getElementById("7thSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				if (document.getElementById("8thSkillName").value != "")
+					{
+					if (isNumeric(document.getElementById("8thSkillNow").value) == false) 
+						{
+						return false;
+						}
+					if (isNumeric(document.getElementById("8thSkillNeed").value) == false) 
+						{
+						return false;
+						}
+					if (document.getElementById("8thSkillNow").value/document.getElementById("8thSkillNeed").value > 1)
+						{
+						return false;
+						}
+					}
+				return true;
+				}
+			
+			function CreateOctopusAction() {
+			var objCanvas = document.getElementById("objPaint").getContext("2d");
+			objCanvas.clearRect(0, 0, 1600, 900);
+			if (IsMew())
+				{
+				CanvasEngine("2d", false, 50, "#FF69B4", 1600, 900, 0.1);
+				DrawHead("2d", 800, 250, 120, 20);
+				if (document.getElementById("1stSkillName").value != "")
+					{
+					TenR1("2d", document.getElementById("1stSkillName").value, document.getElementById("1stSkillNow").value, document.getElementById("1stSkillNeed").value);
+					}
+				if (document.getElementById("2ndSkillName").value != "")
+					{
+					TenR2("2d", document.getElementById("2ndSkillName").value, document.getElementById("2ndSkillNow").value, document.getElementById("2ndSkillNeed").value);
+					}
+				if (document.getElementById("3rdSkillName").value != "")
+					{
+					TenR3("2d", document.getElementById("3rdSkillName").value, document.getElementById("3rdSkillNow").value, document.getElementById("3rdSkillNeed").value);
+					}
+				if (document.getElementById("4thSkillName").value != "")
+					{
+					TenR4("2d", document.getElementById("4thSkillName").value, document.getElementById("4thSkillNow").value, document.getElementById("4thSkillNeed").value);
+					}
+				if (document.getElementById("5thSkillName").value != "")
+					{
+					TenL4("2d", document.getElementById("5thSkillName").value, document.getElementById("5thSkillNow").value, document.getElementById("5thSkillNeed").value);
+					}
+				if (document.getElementById("6thSkillName").value != "")
+					{
+					TenL3("2d", document.getElementById("6thSkillName").value, document.getElementById("6thSkillNow").value, document.getElementById("6thSkillNeed").value);
+					}
+				if (document.getElementById("7thSkillName").value != "")
+					{
+					TenL2("2d", document.getElementById("7thSkillName").value, document.getElementById("7thSkillNow").value, document.getElementById("7thSkillNeed").value);
+					}
+				if (document.getElementById("8thSkillName").value != "")
+					{
+					TenL1("2d", document.getElementById("8thSkillName").value, document.getElementById("8thSkillNow").value, document.getElementById("8thSkillNeed").value);
+					}
+				EyesSmile("2d");
+				}
+			else
+				{
+				alert("Ошибка: Не все поля заполнены или заполнены не верно!");
+				}
+
+			}
+
+ 			
+			
+		</script>		
+	</body>
+</html>
